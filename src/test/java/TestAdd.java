@@ -16,4 +16,9 @@ public class TestAdd {
         Add add = new Add();
         Assert.assertEquals(5, add.add(0, 5));
     }
+
+    @Test
+    public void failTest(){
+        Assert.assertEquals(1, 5);
+    }
 }
